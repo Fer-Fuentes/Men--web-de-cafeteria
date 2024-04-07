@@ -1,0 +1,118 @@
+/* Estilo para el cuerpo de la página */
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* Estilo para los encabezados de nivel 1 */
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* Estilo para los encabezados de nivel 2 */
+h2 {
+  font-size: 30px;
+}
+
+/* Estilo para la clase 'established' */
+.established {
+  font-style: italic;
+}
+
+/* Estilos para los encabezados de nivel 1, nivel 2 y párrafos */
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+/* Estilo para la sección del menú */
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+/* Estilo para las imágenes */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+/* Estilo para las líneas horizontales */
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+/* Estilo para la clase 'bottom-line' */
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* Estilos para los encabezados de nivel 1 y nivel 2 */
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+/* Estilo para los párrafos dentro de elementos con clase 'item' */
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+/* Estilo para los nombres de los productos */
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+  font-weight: bold; 
+}
+
+/* Estilo para los precios */
+.price { 
+  text-align: right;
+  width: 25%;
+}
+
+/* Estilo para el pie de página */
+footer {
+  font-size: 14px;
+}
+
+/* Estilo para la clase 'address' */
+.address {
+  margin-bottom: 5px;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: black;
+}
+
+/* Estilos para los enlaces visitados */
+a:visited {
+  color: black;
+}
+
+/* Estilos para los enlaces al pasar el mouse sobre ellos */
+a:hover {
+  color: brown;
+}
+
+/* Estilos para los enlaces al ser activados */
+a:active {
+  color: brown;
+}
